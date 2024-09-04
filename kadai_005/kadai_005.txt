@@ -1,0 +1,16 @@
+git_challenge % echo "Hello,World" >> hell
+o_world.txt
+git_challenge % git add hello_world.txt
+git_challenge % git commit -m "hello_world
+.txtを追加"
+[main (root-commit) 59e2a1f] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+git_challenge % echo "こんにちは、世界！" >> hello_world.txt
+git_challenge % git add hello_world.txt
+git_challenge % git commit -m "日本語訳を 追記"
+[main f836f9f] 日本語訳を追記
+ 1 file changed, 1 insertion(+)
+git_challenge % git log --oneline
+f836f9f (HEAD -> main) 日本語訳を追記
+59e2a1f hello_world.txtを追加
